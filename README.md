@@ -98,7 +98,7 @@ Stores intermediate data and control signals between:
 ## 🔨 Compile
 
 ```bash
-iverilog -o out.vvp Pipeline_Top_Tb.v Pipeline_Top.v
+iverilog -o out.vvp pipeline_tb.v Pipeline_Top.v
 ```
 
 ## ▶️ Run Simulation
@@ -110,7 +110,7 @@ vvp out.vvp
 ## 📈 View Waveforms
 
 ```bash
-gtkwave pipeline.vcd
+gtkwave
 ```
 
 ---
