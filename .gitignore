@@ -1,0 +1,15 @@
+# Simulation artifacts
+*.vcd
+*.out
+*.vvp
+*.fst
+*.log
+*.jou
+*.wdb
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
